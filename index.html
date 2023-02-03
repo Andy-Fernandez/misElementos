@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/card.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/form.css">
+  <title>Mis elementos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="gallery">
+    <div class="card">
+      <a href="#"><img src="./img/laptop.jpg" alt=""></a>
+      <div class="card__info">
+        <h3><a href="#">Proyecto 1</a></h3>
+        <p>Inteligencia artificial, Aprendizaje automático, Análisis de datos, Internet de las cosas (IoT), Realidad aumentada/virtual, Blockcain, Robótica, Nube, 5G, Desarrollo de aplicaciones móviles.</a>
+        </p>
+        <div class="tools">
+          <span class="tools__item">HTML</span>
+          <span class="tools__item tools__item--principal ">CSS</span>
+          <span class="tools__item">JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <form action="[URL de destino]" method="[GET/POST]" class="form">
+      <h2 class="form-title">Contact us</h2>
+      
+      <label for="name" class="form-label">Nombre:</label>
+      <input type="text" id="name" name="name" class="form-input" required placeholder="Ingrese su nombre">
+      
+      <label for="email" class="form-label">Correo electrónico:</label>
+      <input type="email" id="email" name="email" class="form-input" required placeholder="Ingrese su correo electrónico">
+      
+      <label for="message" class="form-label">Mensaje:</label>
+      <textarea id="message" name="message" class="form-input" required placeholder="Ingrese su mensaje"></textarea>
+      
+      <input type="submit" value="Enviar" class="form-submit">
+    </form>
+</body>
+</html>

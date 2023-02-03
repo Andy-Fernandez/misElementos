@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+:root{
+  --color-primario: #333;
+  --color-secundario: #ccc;
+  --color-claro: #fff;
+  --color-oscuro: #000;
+  --header-size: 5rem;
+  --font: 1.3rem;
+}
+h1{
+  font-size: 5rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+h3{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.3rem;
+}
+small{
+  font-size: 1rem;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Niuno Sans', sans-serif;
+}
